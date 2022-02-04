@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "bezkoder.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'bezkoder.app.jwtSecret'"
+  },
+  {
+    "name": "bezkoder.app.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'bezkoder.app.jwtExpirationMs'"
+  }
+]}
