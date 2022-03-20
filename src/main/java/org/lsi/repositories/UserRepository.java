@@ -1,5 +1,6 @@
 package org.lsi.repositories;
 
+import org.lsi.entities.Role;
 import org.lsi.entities.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
@@ -12,4 +13,9 @@ public interface UserRepository extends MongoRepository<User, String> {
   Boolean existsByUsername(String username);
 
   Boolean existsByEmail(String email);
+
+  User findAllById(String id);
+
+  Role getByUsername(String username);
 }
+
